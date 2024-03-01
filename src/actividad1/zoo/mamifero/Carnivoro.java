@@ -27,7 +27,7 @@ public class Carnivoro extends Mamifero {
 	public void rugir() {
 		System.out.println("Estoy rugiendo");
 	}
-	
+	//Metodo comentado
 	@Override
 	public String toString() {
 		return "Carnivoro [tamaño=" + this.getTamano() + ", peso=" + this.getPeso() + ", con Numero de patas=" + this.getNumeroDePatas() + "y tipo de pelaje=" + this.gettipoDePelaje() + "con un nivel de agresividad=" + this.nivelDeAgresividad +"]";
