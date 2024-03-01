@@ -47,7 +47,7 @@ public abstract class Animal {
 
 		boolean result = false;
 
-		if (this.peso == nuevoAnimal.peso && this.tamano == nuevoAnimal.peso) {
+		if (this.peso == nuevoAnimal.peso && this.tamano == nuevoAnimal.tamano) {
 			result = true;
 		}
 		return result;
